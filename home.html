@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+			<li class="crumb"><a href="./random.html">Random</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<h1>Welcome to this little website.</h1>
+		<p>Hello world</p>
+
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR7bElcNVFXaEKU1fTccb0THOXf9m_YT_PxQ&usqp=CAU"   id="duck" title= "You're Doing Great!!" onMouseover="displayQuote();">
+        <p>Welcome to this awesome site. We are happy you have joined us. If you have not created a profile yet , please go ahead and do so . This profile will grant access to various features of the site.</p>
+		<h3> You should join if you would describe yourself as these three things</h3>
+		<ul class="a">
+		<li>Learner </li>
+		<li>Innovative</li>
+		<li>Positive</li>
+	</ul>
+		<h2>Contact Us</h2>
+		<form id="contact">
+			Your name:
+			<input type="text">
+
+			Message:
+			<input type="textarea">
+
+		
+            How did you hear about us? :
+		     
+			<input type="checkbox" id ="option1" name="option1"
+			value = "google">
+			<label for="option1"> From google</label><br>
+			<input type="checkbox" id="option2" name="option2" value="friend">
+			<label for="option2"> From a friend</label><br>
+			<input type="checkbox" id="option3" name="option3" value="other">
+			<label for="option3"> Other</label><br><br>
+	        <button onclick="myFunction()">Submit</button>
+
+		</form>
+
+	</content>
+
+
+	<script src="about.js"></script>
+
+</body>
+</html>
